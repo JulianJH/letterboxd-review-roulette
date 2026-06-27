@@ -20,6 +20,7 @@
       "js": ["content.js"]
     }
   ],
+  "permissions": ["storage"],
   "host_permissions": [
     "https://letterboxd.com/*"
   ],
