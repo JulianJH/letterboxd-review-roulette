@@ -1,13 +1,13 @@
 :root {
-  --lb-bg: #0f0f0f;
-  --lb-surface: #1a1a1a;
-  --lb-card: #242424;
-  --lb-border: #2e2e2e;
-  --lb-accent: #00c030;
-  --lb-accent-dim: #009020;
-  --lb-muted: #6b7280;
-  --lb-text: #e8e8e8;
-  --lb-text-dim: #9ca3af;
+  --lb-bg: #1a0e2e;
+  --lb-surface: #241640;
+  --lb-card: #2c1c4d;
+  --lb-border: #4a2d6e;
+  --lb-accent: #ff2d78;
+  --lb-accent-dim: #cc1f5e;
+  --lb-muted: #8d6bb0;
+  --lb-text: #ffe0f0;
+  --lb-text-dim: #f0d0e8;
 }
 
 * {
@@ -42,9 +42,10 @@ body {
 
 .header h1 {
   margin: 0;
+  font-family: 'Righteous', cursive;
   font-size: 20px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   color: var(--lb-text);
 }
 
